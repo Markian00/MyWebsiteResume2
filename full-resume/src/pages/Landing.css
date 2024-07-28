@@ -1,0 +1,30 @@
+.header-text{
+    font-family: Comfortaa;
+    color: #602ec9;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.mini-header-text{
+    font-family: Comfortaa;
+    color: #602ec9;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 50%;
+
+}
+
+.regular-text {
+    font-family: Comfortaa;
+    color: #3e0fa2;
+    font-size: 15px;
+}
+
+.half-box{
+    font-family: Comfortaa;
+    color: #3e0fa2;
+    font-size: 15px;
+
+}

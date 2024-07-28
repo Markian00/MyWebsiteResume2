@@ -1,0 +1,85 @@
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
+@keyframes slide-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+img {
+    width: 100%
+}
+
+.fading-in{
+    animation: fadeIn 5s;
+}
+
+.fading-up{
+    opacity: 0;
+    font-family: Comfortaa;
+    animation: slide-out 3s;
+    will-change: opacity, visibility;
+}
+
+.visible{
+    font-family: Comfortaa;
+    animation: slide-in 3s;
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+
+}
+
+.fading-up-box{
+
+    font-family: Comfortaa;
+    animation: slide-out 10s;
+    opacity: 0;
+    transform: none;
+    visibility: visible;
+
+    background: #7c4fd7;
+    color: #dad2f4;
+    width: 30%;
+    margin-top: 35px;
+    margin-bottom: -35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 65%;
+    padding-left: 5%;
+    border-radius: 8px;
+}
+
+.visible-box{
+
+    font-family: Comfortaa;
+    animation: slide-in 3s;
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+
+
+    background:  rgba(144, 110, 237, 0.69);
+    color: #dad2f4;
+    width: 30%;
+    margin-top: 35px;
+    margin-bottom: -35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 65%;
+    padding-left: 5%;
+    border-radius: 8px;
+
+}
