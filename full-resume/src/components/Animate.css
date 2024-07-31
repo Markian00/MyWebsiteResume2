@@ -27,6 +27,8 @@ img {
 }
 
 .fading-up{
+    text-align: center;
+    align-content: center;
     opacity: 0;
     font-family: Comfortaa;
     animation: slide-out 3s;
@@ -34,6 +36,8 @@ img {
 }
 
 .visible{
+    text-align: center;
+    align-content: center;
     font-family: Comfortaa;
     animation: slide-in 3s;
     opacity: 1;
@@ -50,16 +54,12 @@ img {
     transform: none;
     visibility: visible;
 
-    background: #7c4fd7;
+    background: rgba(144, 110, 237, 0.69);
     color: #dad2f4;
-    width: 30%;
-    margin-top: 35px;
-    margin-bottom: -35px;
+    margin: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 65%;
-    padding-left: 5%;
-    border-radius: 8px;
+    border-radius: 500px;
 }
 
 .visible-box{
@@ -71,15 +71,11 @@ img {
     visibility: visible;
 
 
-    background:  rgba(144, 110, 237, 0.69);
+    background: rgba(144, 110, 237, 0.69);
     color: #dad2f4;
-    width: 30%;
-    margin-top: 35px;
-    margin-bottom: -35px;
+    margin: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 65%;
-    padding-left: 5%;
-    border-radius: 8px;
+    border-radius: 500px;
 
 }

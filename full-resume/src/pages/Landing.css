@@ -2,7 +2,9 @@
     font-family: Comfortaa;
     color: #602ec9;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: calc(2vh + 1vw);
+    width: 50%;
+    text-align: center;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -19,12 +21,52 @@
 .regular-text {
     font-family: Comfortaa;
     color: #3e0fa2;
-    font-size: 15px;
+    font-size: 1.7vh;
 }
 
-.half-box{
+.important-text {
+    font-family: Comfortaa;
+    color: #3e0fa2;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.box{
     font-family: Comfortaa;
     color: #3e0fa2;
     font-size: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+
+}
+
+.link-button {
+    background-color: rgba(107, 92, 148, 0);
+    color: #3e0fa2;
+    font-weight: bolder;
+    font-size: calc(1vw + 10px);
+    text-align: center;
+    margin-right: 40%;
+    margin-left: 40%;
+    width: 20%;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    outline: rgba(62, 15, 162, 0.48);
+    outline-style: solid;
+
+}
+
+.link-button:hover {
+    outline: rgba(255, 255, 255, 0.63);
+    outline-style: solid;
+    color: rgba(254, 254, 254, 0.78);
+    background-color: rgba(62, 15, 162, 0.26);
+
 
 }

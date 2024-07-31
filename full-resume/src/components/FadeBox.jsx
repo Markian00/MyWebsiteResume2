@@ -23,8 +23,8 @@ const FadeBox = ({prop}) => {
     });
 
     return(
-        <div className={`${isVisible ? 'visible-box' : 'fading-up-box'}`} ref={domCurr}>
-            <div style={{fontWeight: "bolder", fontSize: "20px"}}>
+        <div className={`${isVisible ? 'visible-box' : 'fading-up-box'}`} style={{fontSize: "1.7vw"}} ref={domCurr}>
+            <div style={{fontWeight: "bolder", fontSize: "5vw"}}>
                 {prop.head}
             </div>
             {prop.info}

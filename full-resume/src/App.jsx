@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Landing from "./pages/Landing.jsx"
+import Footer from "./components/Footer.jsx"
 import './App.css';
 import {
     BrowserRouter as Router,
@@ -26,6 +27,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Landing/>}/>
             </Routes>
+            <Footer/>
         </Router>
     </>)
 }

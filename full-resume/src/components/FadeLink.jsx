@@ -2,7 +2,7 @@ import {useEffect, useRef, useState} from "react";
 import "./Animate.css"
 
 
-const FadeImage = ({prop}) => {
+const FadeLink = ({prop}) => {
     const [isVisible, setVisible] = useState(false);
     const domCurr = useRef(null);
     useEffect(() => {
@@ -14,18 +14,17 @@ const FadeImage = ({prop}) => {
             else{
                 setVisible(true);
             }
-            })
+        })
         observer.observe(domCurr.current)
     });
 
     return(
-        <div className={`${isVisible ? 'visible' : 'fading-up'}`}
-             style={{zIndex: "10", position: "absolute", marginLeft: "30%", marginRight:"30%", marginTop: "2vw",
-                 marginBottom: "2vw", alignText:"center"}}
-             ref={domCurr}>
-            <img src={prop.info} alt={'Should be image here'} width={"auto"}/>
+        <div className={`${isVisible ? 'visible-box' : 'fading-up-box'}`} style={{fontSize: "1.7vw"}} ref={domCurr}>
+            <a href={prop.link}>
+                <img src={prop.info} alt={'Should be image here'} style={{width: "55%"}}/>
+            </a>
         </div>
     )
 }
 
-export default FadeImage
+export default FadeLink

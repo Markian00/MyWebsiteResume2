@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-hide-on-scroll": "^1.1.4"
+    "react-hide-on-scroll": "^1.1.4",
+    "react-wavify": "^1.11.1"
   }
 }
