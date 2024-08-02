@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Landing from "./pages/Landing.jsx"
+import Resume from "./pages/Resume.jsx";
 import Footer from "./components/Footer.jsx"
 import './App.css';
 import {
@@ -26,6 +27,7 @@ function App() {
             <NavGap/>
             <Routes>
                 <Route path="/" element={<Landing/>}/>
+                <Route path="/Resume" element={<Resume/>}/>
             </Routes>
             <Footer/>
         </Router>
