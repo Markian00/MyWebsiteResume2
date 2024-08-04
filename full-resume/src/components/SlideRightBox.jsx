@@ -3,7 +3,7 @@ import api from "../API.js"
 import "./Animate.css"
 
 
-const SlideLeftBox = ({prop}) => {
+const SlideRightBox = ({prop}) => {
     const [id, setId] = useState();
     const [name, setName] = useState();
     const [content, setContent] = useState();
@@ -26,21 +26,21 @@ const SlideLeftBox = ({prop}) => {
     },[]);
 
     return(
-        <div className={`${isVisible ? 'left-box' : 'left-box-hidden'}`} style={{fontSize: "1.7vw"}}>
-            <div className={"slide-container"} style={{borderBottomRightRadius: "9vw",
-                borderTopRightRadius: "9vw"}}>
+        <div className={`${isVisible ? 'right-box' : 'right-box-hidden'}`} style={{fontSize: "1.7vw"}}>
+            <div className={"slide-container"} style={{borderBottomLeftRadius: "9vw",
+                borderTopLeftRadius: "9vw"}}>
+                <button onClick={() => {setVisible(!isVisible)}} className={"num-button"}>
+                    {id}
+                </button>
                 <div style={{fontWeight: "bolder", fontSize: "calc(1vw + 0.9vh)", width: "60vw"}}>
                     {name}
                     <div style={{fontWeight: "normal", fontSize: "calc(1vw + 0.7vh)"}}>
                         {content}
                     </div>
                 </div>
-                <button onClick={() => {setVisible(!isVisible)}} className={"num-button"}>
-                    {id}
-                </button>
             </div>
         </div>
     )
 }
 
-export default SlideLeftBox;
+export default SlideRightBox;

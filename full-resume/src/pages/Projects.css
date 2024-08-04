@@ -1,8 +1,18 @@
 .main-header{
     font-family: Comfortaa;
-    color: rgb(235, 228, 254);
+    color: rgb(198,183,238);
     font-weight: bolder;
     font-size: calc(2.5vh + 1.5vw);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.main-text{
+    font-family: Comfortaa;
+    color: rgb(198,183,238);
+    font-size: calc(1vh + 1.7vw);
     width: 50%;
     text-align: center;
     margin-left: 25%;
