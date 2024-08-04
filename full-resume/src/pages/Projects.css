@@ -1,0 +1,10 @@
+.main-header{
+    font-family: Comfortaa;
+    color: rgb(235, 228, 254);
+    font-weight: bolder;
+    font-size: calc(2.5vh + 1.5vw);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}

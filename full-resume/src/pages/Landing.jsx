@@ -1,5 +1,6 @@
 import "../components/Animate.css"
 import "./Landing.css"
+import NavGap from "../components/NavGap.jsx";
 import FadeText from "../components/FadeText.jsx";
 import FadeBox from "../components/FadeBox.jsx";
 import FadeImage from "../components/FadeImage.jsx";
@@ -14,9 +15,11 @@ import LinkedIn from "../images/LinkedInIcon.png"
 import Wave from 'react-wavify'
 import {Link} from "react-router-dom";
 
+
 const Landing = () => {
     return (
         <>
+            <NavGap/>
             <div>
                 <div className={"regular-text"} style={{marginTop: "15px"}}>
                     <FadeText prop={{
