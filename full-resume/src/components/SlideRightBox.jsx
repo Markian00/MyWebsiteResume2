@@ -18,7 +18,9 @@ const SlideRightBox = ({prop}) => {
                     setName(res.data[0].name)
                 })
             } catch(err){
-                content
+                setContent("Error fetching from API")
+                setId("0")
+                setName("Error fetching from API")
             }
         }
         fetch();
