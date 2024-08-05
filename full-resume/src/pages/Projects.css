@@ -1,20 +1,36 @@
 .main-header{
     font-family: Comfortaa;
-    color: rgb(198,183,238);
+    color: #452c7b;;
     font-weight: bolder;
-    font-size: calc(2.5vh + 1.5vw);
+    font-size: calc(2.7vh + 1.7vw);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 15px;
+}
+
+.main-text{
+    font-family: Comfortaa;
+    color: #52309b;;
+    font-size: calc(1vh + 1.7vw);
     width: 50%;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-.main-text{
+.column-text{
     font-family: Comfortaa;
-    color: rgb(198,183,238);
-    font-size: calc(1vh + 1.7vw);
-    width: 50%;
+    color: rgb(185,166,237);
+    font-size: calc(1vh + 1.4vw);
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+}
+
+.mini-header-text{
+    font-family: Comfortaa;
+    color: rgb(185,166,237);
+    font-weight: bold;
+    font-size: calc(1.7vh + 1.7vw);
+    width: 100%;
 }
