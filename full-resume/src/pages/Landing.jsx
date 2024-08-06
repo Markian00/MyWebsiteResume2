@@ -17,6 +17,7 @@ import {Link} from "react-router-dom";
 
 
 const Landing = () => {
+    window.scrollTo(0, 0)
     return (
         <>
             <NavGap/>
@@ -166,7 +167,7 @@ const Landing = () => {
                             <FadeText prop={{
                                 info:
                                     "In the past I've done some limited work with Firebase, Google Cloud Platform (GCP), " +
-                                    "Amazon Web Services (AWS) and Docker. I've also worked with Rack Servers using " +
+                                    "Amazon Web Services (AWS) and Supabase. I've also worked with Rack Servers using " +
                                     "CISCO CLI. I've got experience reading logs to identify issues in PostGreSQL Databases" +
                                     " and RESTful API Implementations. I'm comfortable with writing SQL Queries and using " +
                                     "the FireBase API in both Flutter and Javascript. You may notice that this entire " +

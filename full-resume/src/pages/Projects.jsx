@@ -1,5 +1,6 @@
 import "./Projects.css"
 import NavGap from "../components/NavGap.jsx";
+import LanguageBubble from "../components/LanguageBubble.jsx";
 import SlideLeftBox from "../components/SlideLeftBox.jsx";
 import SlideRightBox from "../components/SlideRightBox.jsx";
 import FadeText from "../components/FadeText.jsx";
@@ -7,6 +8,7 @@ import Wave from "react-wavify";
 
 //Add a languages I use and Libraries I love section
 const Projects = () => {
+    window.scrollTo(0, 0)
     return(
         <>
             <div style={{height: "calc(4.5vw + 70px)", background: 'rgb(155,125,240)'}}/>
@@ -47,24 +49,45 @@ const Projects = () => {
                     <div className={"main-header"} style={{color: "rgb(185,166,237)"}}>
                         <FadeText prop={{info: "Languages and Tools"}}/>
                     </div>
-                    <div className={"column-text"} style={{display: "flex", marginTop: "5vh"}}>
-                        <div style={{width: "35%", marginLeft: "10%", marginRight: "5%"}}>
-                            <div className={"mini-header-text"}>
-                                <FadeText prop={{
-                                    info: "C and C++"
-                                }}/>
-                            </div>
-                            <FadeText prop={{
-                                info: "Tools: Boost, cURL, netInet, C++ standard library, Qt Creator"
+                    <div className={"column-text"} style={{display: "flex", marginTop: "5vh", paddingBottom: "5vh"}}>
+                        <div style={{width: "37%", marginLeft: "10%", marginRight: "3%"}}>
+                            <LanguageBubble prop={{
+                                head: "languages?select=name,description,professionally,id&id=eq.1",
+                                info: "https://cplusplus.com/"
                             }}/>
                         </div>
-                        <div style={{width: "35%", marginLeft: "5%", marginRight: "10%"}}>
-                            <FadeText prop={{
-                                info: "Here is a collection of my 4 favorite projects across multiple languages." +
-                                    " I've worked hard on each of these, however some required higher degrees of technical" +
-                                    " skill while others required creativity. These projects are diverse and display " +
-                                    "some of my abilities as a Software Engineer. Other projects are also visible on my " +
-                                    "GitHub and many others can be seen in the academics section of this site."
+                        <div style={{width: "37%", marginLeft: "3%", marginRight: "10%"}}>
+                            <LanguageBubble prop={{
+                                head: "languages?select=name,description,professionally,id&id=eq.2",
+                                info: "https://www.javascript.com/"
+                            }}/>
+                        </div>
+                    </div>
+                    <div className={"column-text"} style={{display: "flex", marginTop: "5vh", paddingBottom: "5vh"}}>
+                        <div style={{width: "37%", marginLeft: "10%", marginRight: "3%"}}>
+                            <LanguageBubble prop={{
+                                head: "languages?select=name,description,professionally,id&id=eq.3",
+                                info: "https://www.python.org/"
+                            }}/>
+                        </div>
+                        <div style={{width: "37%", marginLeft: "3%", marginRight: "10%"}}>
+                            <LanguageBubble prop={{
+                                head: "languages?select=name,description,professionally,id&id=eq.4",
+                                info: "https://flutter.dev/"
+                            }}/>
+                        </div>
+                    </div>
+                    <div className={"column-text"} style={{display: "flex", marginTop: "5vh", paddingBottom: "10vh"}}>
+                        <div style={{width: "37%", marginLeft: "10%", marginRight: "3%"}}>
+                            <LanguageBubble prop={{
+                                head: "languages?select=name,description,professionally,id&id=eq.5",
+                                info: "https://www.java.com/en/"
+                            }}/>
+                        </div>
+                        <div style={{width: "37%", marginLeft: "3%", marginRight: "10%"}}>
+                            <LanguageBubble prop={{
+                                head: "languages?select=name,description,professionally,id&id=eq.6",
+                                info: "https://learn.microsoft.com/en-us/dotnet/csharp/"
                             }}/>
                         </div>
                     </div>

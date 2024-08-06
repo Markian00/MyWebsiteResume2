@@ -4,7 +4,7 @@ import api from "../API.js";
 
 
 const LanguageBubble = ({prop}) => {
-    const [professional, setProfessional] = useState();
+    const [professional, setProfessional] = useState(false);
     const [name, setName] = useState();
     const [content, setContent] = useState();
     const [isVisible, setVisible] = useState(false);
@@ -42,17 +42,17 @@ const LanguageBubble = ({prop}) => {
     },[]);
 
     return(
-        <div className={`${isVisible ? 'visible-box' : 'fading-up-box'}`} style={{width: "35%", marginLeft: "10%", marginRight: "5%"}} ref={domCurr}>
-            <a href={prop.info}>
-                <div style={{fontWeight: "bolder", fontSize: "5vw"}}>
-                    {name}
-                </div>
-                {content}
-                <div className={`${professional ? 'prof' : 'non-prof'}`}>
-                    Used Professionally
-                </div>
-            </a>
+        <a href={prop.info}>
+        <div className={`${isVisible ? 'visible-lang' : 'hidden-lang'}`} style={{width: "100%"}} ref={domCurr}>
+            <div style={{fontWeight: "bolder", fontSize: "calc(1.3vw + 1vh)"}}>
+                {name}
+            </div>
+            {content}
+            <div className={`${professional ? 'prof' : 'non-prof'}`}>
+                Used Professionally
+            </div>
         </div>
+        </a>
     )
 }
 
