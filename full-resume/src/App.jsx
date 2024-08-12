@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import './App.css'
 import NavB from "./components/NavBar.jsx";
+import InspectProjectPage from "./components/InspectProjectPage.jsx";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/Resume" element={<Resume/>}/>
                 <Route path="/Projects" element={<Projects/>}/>
                 <Route path="/Academics" element={<Academics/>}/>
+                <Route path="/project/:slug" element={<InspectProjectPage/>}/>
             </Routes>
             <Footer/>
         </Router>

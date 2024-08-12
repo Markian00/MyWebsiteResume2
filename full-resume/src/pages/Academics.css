@@ -1,0 +1,55 @@
+.header-text{
+    font-family: Comfortaa;
+    color: #6a3bcd;
+    font-weight: bolder;
+    font-size: calc(1.9vh + 1.5vw);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.header-text-small{
+    font-family: Comfortaa;
+    color: rgb(99, 60, 203);
+    font-weight: bolder;
+    font-size: calc(1.2vh + 1.0vw);
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.header-texts2{
+    font-family: Comfortaa;
+    color: #4b21a6;
+    font-weight: bolder;
+    font-size: calc(1.7vh + 1.5vw);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.normal-text{
+    font-family: Comfortaa;
+    color: #6a3bcd;
+    font-weight: normal;
+    font-size: calc(1.0vh + 1.0vw);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 15px;
+}
+
+.normal-text-wide{
+    font-family: Comfortaa;
+    color: #6a3bcd;
+    font-weight: normal;
+    font-size: calc(1.0vh + 1.0vw);
+    text-align: center;
+    padding-bottom: 15px;
+}

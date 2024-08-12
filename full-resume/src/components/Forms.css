@@ -1,0 +1,64 @@
+
+input[type="text"]{
+    padding: 10px 10px;
+    line-height: 28px;
+    width: 20vh;
+    background-color: #815ad2;
+    color: rgb(219, 210, 245);
+    font-family: Comfortaa;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+input[type="email"]{
+    padding: 10px 10px;
+    line-height: 20px;
+    width: 28vh;
+    background-color: #815ad2;
+    color: rgb(219, 210, 245);
+    font-family: Comfortaa;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+textarea{
+    padding: 10px 10px;
+    line-height: calc(8vh);
+    width: 28vh;
+    background-color: #815ad2;
+    color: rgb(219, 210, 245);
+    font-family: Comfortaa;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+input[type="submit"]{
+    background-color: rgba(107, 92, 148, 0);
+    color: #b6a4dc;
+    font-weight: bolder;
+    font-size: calc(2vh);
+    text-align: center;
+    margin-right: 40%;
+    margin-left: 40%;
+    width: 20%;
+    padding: 2px;
+    border-style: hidden;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: #aa93db;
+    outline-style: solid;
+}
+
+input[type="submit"]:hover{
+    outline: rgba(255, 255, 255, 0.63);
+    outline-style: solid;
+    color: rgba(254, 254, 254, 0.78);
+    background-color: rgba(62, 15, 162, 0.26);
+}
+
+.form-label{
+    font-family: Comfortaa;
+    color: rgb(198,183,238);
+
+}

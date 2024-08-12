@@ -1,6 +1,48 @@
 
 .footer{
-    height: 100px;
     background: #392f66;
     color: white;
+    display: flex;
+    padding-bottom: 10vh;
+    margin-top: -20px;
+}
+.footer-content{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.link-set{
+    display: inline-block;
+    text-align: left;
+    border-width: 2px;
+    border-color: white;
+    border-left-style: solid;
+    padding-left: 10px;
+    color: white;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+.link-page{
+    color: white;
+    font-family: Comfortaa;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.section-head{
+    color: #fefcfc;
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+img {
+    width: 100%;
 }

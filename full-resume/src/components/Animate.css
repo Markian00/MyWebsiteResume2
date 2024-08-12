@@ -212,7 +212,7 @@ img {
     font-family: Comfortaa;
     background: rgb(72, 46, 150);
     color: rgb(185,166,237);
-    border-color: rgb(135, 112, 196);;
+    border-color: rgb(135, 112, 196);
 }
 
 .hidden-lang{
@@ -222,4 +222,99 @@ img {
     border-radius: 10vh;
     opacity: 0;
     animation: slide-out 3s;
+}
+
+.project-box{
+    font-family: Comfortaa;
+    animation: slide-in 3s;
+    visibility: visible;
+    font-size: calc(0.5vw + 1vh);
+
+
+    background: rgb(113, 82, 194);
+    color: #dad2f4;
+    margin: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 3%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.p-button {
+    background-color: rgba(107, 92, 148, 0);
+    color: #dad2f4;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 20px;
+    outline: #dad2f4;
+    outline-style: solid;
+    padding: 1%;
+
+}
+
+.p-button:hover {
+    outline: rgba(255, 255, 255, 0.63);
+    outline-style: solid;
+    color: rgba(254, 254, 254, 0.78);
+    background-color: rgba(62, 15, 162, 0.26);
+}
+
+.class-box{
+    font-family: Comfortaa;
+    animation: slide-in 3s;
+    visibility: visible;
+    font-size: calc(1vw + 1.5vh);
+    display: flex;
+
+    background: rgba(105, 72, 196, 0.69);
+    color: #dad2f4;
+    margin: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 3%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.school-fading{
+
+    font-family: Comfortaa;
+    animation: slide-out 10s;
+    opacity: 0;
+    transform: none;
+    visibility: visible;
+    width: 40%;
+
+
+    background: rgba(105, 72, 196, 0.69);
+    color: #dad2f4;
+    padding: 3%;
+    margin: 2%;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.school-box{
+
+    font-family: Comfortaa;
+    animation: slide-in 3s;
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    width: 40%;
+
+
+    background: rgba(105, 72, 196, 0.69);
+    color: #dad2f4;
+    padding: 3%;
+    margin: 2%;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }

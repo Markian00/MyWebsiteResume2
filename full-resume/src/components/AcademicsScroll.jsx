@@ -2,10 +2,11 @@ import {useEffect, useRef, useState} from "react";
 import "./Animate.css"
 import api from "../API.js";
 import ProjectBox from "./ProjectBox.jsx";
+import ClassBox from "./ClassBox.jsx";
 
 
-const ProjectsScroll = ({prop}) => {
-    const [postCount, setPostCount] = useState(2);
+const AcademicsScroll = ({prop}) => {
+    const [postCount, setPostCount] = useState(3);
     const [postArray, setPostArray] = useState([]);
     const [scrollend, setScrollend] = useState(false);
 
@@ -29,14 +30,14 @@ const ProjectsScroll = ({prop}) => {
                     setPostArray((res.data.map(element => {
                         //Change This
                         return(
-                            <ProjectBox prop={element} key={element.id}/>
+                            <ClassBox prop={element} key={element.id}/>
                         )
 
                     })))
                 })
             } catch(err){
                 //Change this
-                setPostArray(["nah"])
+                setPostArray([])
             }
         }
         fetch();
@@ -48,7 +49,7 @@ const ProjectsScroll = ({prop}) => {
             borderStyle: "solid", borderWidth: "2px", borderRadius: "20px",
             background: "rgba(33,22,60,0.09)"}}>
             <div
-                style={{height: "80vh", overflowY: "scroll", width: "100.5%", marginTop: "-30px"}}
+                style={{height: prop.info, overflowY: "scroll", width: "100.5%"}}
                 onScroll={(e) => {scrollHandler(e)}}>
 
                 {postArray.slice(0, postCount)}
@@ -59,4 +60,4 @@ const ProjectsScroll = ({prop}) => {
     )
 }
 
-export default ProjectsScroll
+export default AcademicsScroll

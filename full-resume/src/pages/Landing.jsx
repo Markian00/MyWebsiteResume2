@@ -39,7 +39,8 @@ const Landing = () => {
                     <FadeImage prop={{info: selfImagenBG}}/>
                     <div style={{width: "30%", marginRight: "20%"}}>
                         <FadeBox prop={{info: "GPA", head: "3.83"}}/>
-                        <FadeLink prop={{info: LinkedIn, link: "https://www.linkedin.com/in/markian-voronovych-1b930322b"}}/>
+                        <FadeLink
+                            prop={{info: LinkedIn, link: "https://www.linkedin.com/in/markian-voronovych-1b930322b"}}/>
                     </div>
                     <div style={{width: "30%", marginLeft: "20%"}}>
                         <FadeBox prop={{info: "Languages", head: ">5 "}}/>
@@ -51,7 +52,7 @@ const Landing = () => {
                       paused={false}
                       style={{display: 'flex'}}
                       options={{
-                          height: 10,
+                          height: 20,
                           amplitude: 50,
                           speed: 0.15,
                           points: 5
@@ -101,10 +102,10 @@ const Landing = () => {
 
                 <Wave fill='rgba(144, 110, 237)'
                       paused={false}
-                      style={{display: 'flex', background: "rgb(155,125,240)"}}
+                      style={{display: 'flex', background: "rgb(155,125,240)", paddingTop: "15px"}}
                       options={{
                           height: 15,
-                          amplitude: 50,
+                          amplitude: 40,
                           speed: 0.15,
                           points: 5,
                       }}
@@ -112,7 +113,7 @@ const Landing = () => {
 
                 <div className={"box"} style={{background: 'rgba(144, 110, 237)'}}>
                     <div style={{width: "70%", marginLeft: "15%", marginRight: "15%"}}>
-                        <div className={"header-text"} style={{marginTop: "1vw"}}>
+                        <div className={"header-text"} style={{marginTop: "1vw", color: "#4b21a6"}}>
                             <FadeText prop={{
                                 info:
                                     "CYBER SECURITY"
@@ -128,7 +129,7 @@ const Landing = () => {
                                     "Unix systems, I've even built pagers and thread libraries for them!"
                             }}/>
                         </div>
-                        <div className={"important-text"} style={{marginBottom: "2vh", marginTop: "2vh"}}>
+                        <div className={"important-text"} style={{marginBottom: "3vh", marginTop: "2vh"}}>
                             <FadeText prop={{
                                 info:
                                     "I Enjoy Work Involving: Penetration Testing, Zero-Knowledge Proofs" +
@@ -146,10 +147,10 @@ const Landing = () => {
 
                 <Wave fill='rgb(101,68,191)'
                       paused={false}
-                      style={{display: 'flex', background: "rgba(144, 110, 237)"}}
+                      style={{display: 'flex', background: "rgba(144, 110, 237)", paddingTop: "15px"}}
                       options={{
                           height: 15,
-                          amplitude: 50,
+                          amplitude: 40,
                           speed: 0.15,
                           points: 4,
                       }}
