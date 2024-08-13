@@ -1,5 +1,5 @@
 .main-header{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: #452c7b;;
     font-weight: bolder;
     font-size: calc(2.7vh + 1.7vw);
@@ -11,7 +11,7 @@
 }
 
 .main-text{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: #52309b;
     font-size: calc(1vh + 1.7vw);
     width: 50%;
@@ -21,14 +21,14 @@
 }
 
 .column-text{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: rgb(185,166,237);
     font-size: calc(1vh + 1.4vw);
     text-align: center;
 }
 
 .mini-header-text{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: rgb(185,166,237);
     font-weight: bold;
     font-size: calc(1.7vh + 1.7vw);

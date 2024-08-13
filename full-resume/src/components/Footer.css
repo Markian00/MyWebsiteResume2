@@ -23,20 +23,31 @@
     color: white;
     height: 100px;
     margin-bottom: 70px;
+    margin-top: 20px;
+    min-width: 200px;
+}
+
+.image-set{
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+    height: 100px;
+    margin-bottom: 150px;
     margin-top: 0px;
     min-width: 200px;
 }
 
 .link-page{
     color: white;
-    font-family: Comfortaa;
+    font-family: var(--font-kanit);
     font-size: 15px;
     font-weight: bolder;
 }
 
 .section-head{
     color: #fefcfc;
-    font-family: Comfortaa;
+    font-family: var(--font-kanit);
     font-size: 18px;
     font-weight: normal;
     margin-top: -30px;

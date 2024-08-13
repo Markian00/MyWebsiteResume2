@@ -5,7 +5,7 @@ input[type="text"]{
     width: 20vh;
     background-color: #815ad2;
     color: rgb(219, 210, 245);
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     border-radius: 10px;
     border-style: hidden;
 }
@@ -14,25 +14,26 @@ input[type="email"]{
     padding: 10px 10px;
     line-height: 20px;
     width: 28vh;
+    font-family: var(--font-inter);
     background-color: #815ad2;
     color: rgb(219, 210, 245);
-    font-family: var(--font-comfortaa);
     border-radius: 10px;
     border-style: hidden;
 }
 
 textarea{
+    font-family: var(--font-inter);
     padding: 10px 10px;
     line-height: calc(8vh);
     width: 28vh;
     background-color: #815ad2;
     color: rgb(219, 210, 245);
-    font-family: var(--font-comfortaa);
     border-radius: 10px;
     border-style: hidden;
 }
 
 input[type="submit"]{
+    font-family: var(--font-inter);
     background-color: rgba(107, 92, 148, 0);
     color: #b6a4dc;
     font-weight: bolder;
@@ -51,6 +52,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
+    font-family: var(--font-inter);
     outline: rgba(255, 255, 255, 0.63);
     outline-style: solid;
     color: rgba(254, 254, 254, 0.78);
@@ -58,7 +60,7 @@ input[type="submit"]:hover{
 }
 
 .form-label{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: rgb(198,183,238);
 
 }

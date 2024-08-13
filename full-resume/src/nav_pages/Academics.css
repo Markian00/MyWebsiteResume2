@@ -1,5 +1,5 @@
 .header-text{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: #6a3bcd;
     font-weight: bolder;
     font-size: calc(1.9vh + 1.5vw);
@@ -10,7 +10,7 @@
 }
 
 .header-text-small{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: rgb(99, 60, 203);
     font-weight: bolder;
     font-size: calc(1.2vh + 1.0vw);
@@ -23,7 +23,7 @@
 }
 
 .header-texts2{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: #4b21a6;
     font-weight: bolder;
     font-size: calc(1.7vh + 1.5vw);
@@ -34,7 +34,7 @@
 }
 
 .normal-text{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: #6a3bcd;
     font-weight: normal;
     font-size: calc(1.0vh + 1.0vw);
@@ -46,7 +46,7 @@
 }
 
 .normal-text-wide{
-    font-family: var(--font-comfortaa);
+    font-family: var(--font-inter);
     color: #6a3bcd;
     font-weight: normal;
     font-size: calc(1.0vh + 1.0vw);

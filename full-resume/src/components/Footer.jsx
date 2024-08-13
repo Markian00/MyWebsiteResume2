@@ -17,14 +17,14 @@ const Footer = () => {
                   }}
             />
             <div className={"footer"}>
-
-                <div className={"link-set"} style={{width: "15%", textAlign: "center"}}>
-                    <img src={Logo.src}/>
-                    <div>
-                        Last Updated: August 2024
-                    </div>
-                </div>
                 <div className={"footer-content"}>
+                    <div className={"image-set"} style={{width: "15%", textAlign: "center"}}>
+                        <img src={Logo.src}/>
+                        <div>
+                            Last Updated: August 2024
+                        </div>
+                    </div>
+
                     <div className={"link-set"}>
                         <div className={"section-head"}>
                             Top Projects
@@ -53,6 +53,24 @@ const Footer = () => {
 
                     <div className={"link-set"}>
                         <div className={"section-head"}>
+                            Contact Info
+                        </div>
+                        <div className={"link-page"}>
+                            markv2021@gmail.com
+                        </div>
+                        <div className={"link-page"}>
+                            voronovy@umich.edu
+                        </div>
+                        <div className={"link-page"}>
+                            +1 (248) 320 0915
+                        </div>
+                        <div className={"link-page"}>
+                            More on Home Page
+                        </div>
+                    </div>
+
+                    <div className={"link-set"}>
+                        <div className={"section-head"}>
                             Main Pages
                         </div>
                         <div>
@@ -74,24 +92,6 @@ const Footer = () => {
                             <Link to="/Projects" className={"link-page"}>
                                 Projects
                             </Link>
-                        </div>
-                    </div>
-
-                    <div className={"link-set"}>
-                        <div className={"section-head"}>
-                            Contact Info
-                        </div>
-                        <div className={"link-page"}>
-                            markv2021@gmail.com
-                        </div>
-                        <div className={"link-page"}>
-                            voronovy@umich.edu
-                        </div>
-                        <div className={"link-page"}>
-                            +1 (248) 320 0915
-                        </div>
-                        <div className={"link-page"}>
-                            More on Home Page
                         </div>
                     </div>
 

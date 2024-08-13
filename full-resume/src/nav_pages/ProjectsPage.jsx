@@ -33,7 +33,7 @@ const ProjectsPage = () => {
                         " I've worked hard on each of these, however some required higher degrees of technical" +
                         " skill while others required creativity. These diverse projects display just " +
                         "some of my abilities as a Software Engineer. Other personal projects are visible on my " +
-                        "GitHub and school projects can be seen on the AcademicsPage section of this site."
+                        "GitHub and school projects can be seen on the Academics section of this site."
                 }}/>
             </div>
 
