@@ -24,7 +24,7 @@ input[type="email"]{
 textarea{
     font-family: var(--font-inter);
     padding: 10px 10px;
-    line-height: calc(8vh);
+    height: calc(8vh);
     width: 28vh;
     background-color: #815ad2;
     color: rgb(219, 210, 245);
@@ -63,4 +63,24 @@ input[type="submit"]:hover{
     font-family: var(--font-inter);
     color: rgb(198,183,238);
 
+}
+
+.sent{
+    padding: 2px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    opacity: 1;
+    background-color: #89ed5e;
+    color: #0e0e14;
+    border-radius: 10px;
+}
+
+.not-sent{
+    padding: 2px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    opacity: 0;
+    border-radius: 10px;
 }

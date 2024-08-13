@@ -1,9 +1,13 @@
-import { useRef } from 'react';
+import {useEffect, useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import "./Forms.css";
 
 export const EmailForm = () => {
     const form = useRef();
+    const [sent, setSent] = useState(false)
+    useEffect(() => {
+        form.current.reset()
+    }, [sent])
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -15,6 +19,7 @@ export const EmailForm = () => {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    setSent(true);
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -43,6 +48,9 @@ export const EmailForm = () => {
                 <div/>
                 <input type="submit" value="Send"/>
             </form>
+            <div className={`${sent ? "sent": "not-sent"}`}>
+                Received!
+            </div>
         </div>
 
     );
