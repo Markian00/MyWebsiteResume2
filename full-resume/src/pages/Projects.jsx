@@ -11,16 +11,16 @@ import ProjectsScroll from "../components/ProjectsScroll.jsx";
 const Projects = () => {
     window.scrollTo(0, 0)
     return(
-        <>
+        <div style={{position: "relative", width: "100%", overflowX: "hidden"}}>
             <NavGap/>
             <div className={"main-header"}>
                 <FadeText prop={{info: "Projects"}}/>
             </div>
-            <div style={{zIndex: "10"}}>
+            <div style={{maxWidth: "100vw", overflowX: "hidden"}}>
                 <SlideLeftBox prop={{head: "projects?select=id,name,description&id=eq.1"}}/>
                 <SlideRightBox prop={{head: "projects?select=id,name,description&id=eq.2"}}/>
             </div>
-            <div style={{zIndex: "10", marginTop: "calc(6vw + 23vh)"}}>
+            <div style={{marginTop: "calc(6vw + 23vh)"}}>
                 <SlideLeftBox prop={{head: "projects?select=id,name,description&id=eq.3"}}/>
                 <SlideRightBox prop={{head: "projects?select=id,name,description&id=eq.4"}}/>
             </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                 </div>
 
             </div>
-        </>
+        </div>
 
 
     )

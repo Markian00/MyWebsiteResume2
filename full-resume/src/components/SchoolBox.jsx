@@ -23,7 +23,7 @@ const SchoolBox = ({prop}) => {
     });
 
     return(
-        <div className={`${isVisible ? 'school-box' : 'school-fading'}`} style={{fontSize: "1.7vw"}} ref={domCurr}>
+        <div className={`${isVisible ? 'school-box' : 'school-fading'}`} ref={domCurr}>
             <div style={{fontWeight: "bolder", fontSize: "calc(1.8vh + 1.0vw)"}}>
                 {prop.head}
             </div>

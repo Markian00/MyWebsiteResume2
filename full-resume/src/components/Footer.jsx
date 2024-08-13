@@ -46,7 +46,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <Link to="/projects/4" className={"link-page"}>
-                                Amazon Look-Alike in Java
+                                Amazon Look-Alike
                             </Link>
                         </div>
                     </div>
