@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <Link to="/projects/2" className={"link-page"}>
-                                My Website Resume
+                                My Website ResumePage
                             </Link>
                         </div>
                         <div>

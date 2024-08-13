@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import Landing from "./pages/Landing.jsx"
-import Resume from "./pages/Resume.jsx";
-import Projects from "./pages/Projects.jsx";
-import Academics from "./pages/Academics.jsx";
+import LandingPage from "./nav_pages/LandingPage.jsx"
+import ResumePage from "./nav_pages/ResumePage.jsx";
+import AcademicsPage from "./nav_pages/AcademicsPage.jsx";
 import Footer from "./components/Footer.jsx"
 import './App.css';
 import {
@@ -13,6 +12,7 @@ import {
 import './App.css'
 import NavB from "./components/NavBar.jsx";
 import InspectProjectPage from "./components/InspectProjectPage.jsx";
+import ProjectsPage from "./nav_pages/ProjectsPage.jsx";
 
 
 function App() {
@@ -20,10 +20,10 @@ function App() {
         <BrowserRouter>
             <NavB/>
             <Routes>
-                <Route path="/" element={<Landing/>}/>
-                <Route path="/Resume/" element={<Resume/>}/>
-                <Route path="/Projects/" element={<Projects/>}/>
-                <Route path="/Academics/" element={<Academics/>}/>
+                <Route path="/" element={<LandingPage/>}/>
+                <Route path="/Resume/" element={<ResumePage/>}/>
+                <Route path="/Projects/" element={<ProjectsPage/>}/>
+                <Route path="/Academics/" element={<AcademicsPage/>}/>
                 <Route path="/Projects/:slug" element={<InspectProjectPage/>}/>
             </Routes>
             <Footer/>

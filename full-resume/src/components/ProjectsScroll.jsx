@@ -1,4 +1,4 @@
-import {useEffect, useRef, useState} from "react";
+import {useEffect, useState} from "react";
 import "./Animate.css"
 import api from "../API.js";
 import ProjectBox from "./ProjectBox.jsx";

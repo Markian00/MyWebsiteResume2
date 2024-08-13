@@ -6,10 +6,13 @@ import Wave from "react-wavify";
 import AcademicsScroll from "../components/AcademicsScroll.jsx";
 import SchoolBox from "../components/SchoolBox.jsx";
 import EmailForm from "../components/EmailForm.jsx";
+import {useEffect} from "react";
 
 
-const Academics = () => {
-    window.scrollTo(0,0)
+const AcademicsPage = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
     return(
         <>
             <NavGap/>
@@ -123,4 +126,4 @@ const Academics = () => {
     )
 }
 
-export default Academics;
+export default AcademicsPage;

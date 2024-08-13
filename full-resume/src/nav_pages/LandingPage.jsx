@@ -6,7 +6,6 @@ import FadeBox from "../components/FadeBox.jsx";
 import FadeImage from "../components/FadeImage.jsx";
 import FadeIcon from "../components/FadeIcon.jsx";
 import FadeLink from "../components/FadeLink.jsx";
-import selfImage from "../images/ResumeImage.jpg"
 import selfImagenBG from "../images/selfImageNoBG.png"
 import spinGear1 from "../images/spinningGears.gif"
 import spinGear2 from "../images/spinningGearsReversed.gif"
@@ -14,10 +13,13 @@ import GitHub from "../images/GitHubIcon.png"
 import LinkedIn from "../images/LinkedInIcon.png"
 import Wave from 'react-wavify'
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
 
 
-const Landing = () => {
-    window.scrollTo(0,0)
+const LandingPage = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
     return (
         <>
             <NavGap/>
@@ -94,7 +96,7 @@ const Landing = () => {
                 </div>
 
                 <div className={"box"} style={{background: 'rgb(155,125,240)'}}>
-                    <Link to='/Projects/' className={"link-button"}>
+                    <Link to='/Projects' className={"link-button"}>
                         Learn More
                     </Link>
                 </div>
@@ -140,7 +142,7 @@ const Landing = () => {
                 </div>
 
                 <div className={"box"} style={{background: 'rgba(144, 110, 237)'}}>
-                    <Link to='/Projects/' className={"link-button"}>
+                    <Link to='/Academics' className={"link-button"}>
                         Learn More
                     </Link>
                 </div>
@@ -191,4 +193,4 @@ const Landing = () => {
     )
 }
 
-export default Landing;
+export default LandingPage;

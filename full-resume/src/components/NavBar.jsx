@@ -27,13 +27,13 @@ class NavB extends Component{
                         <NavLink to="/">
                             HOME
                         </NavLink>
-                        <NavLink to="/Resume/">
+                        <NavLink to="/Resume">
                             RESUME
                         </NavLink>
-                        <NavLink to="/Academics/">
+                        <NavLink to="/Academics">
                             ACADEMICS
                         </NavLink>
-                        <NavLink to="/Projects/">
+                        <NavLink to="/Projects">
                             PROJECTS
                         </NavLink>
                     </NavMenu>

@@ -1,7 +1,4 @@
-import {useEffect, useRef, useState} from "react";
 import "./Animate.css"
-import {Link} from "react-router-dom";
-
 
 const ClassBox = ({prop}) => {
     return(

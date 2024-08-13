@@ -6,10 +6,13 @@ import SlideRightBox from "../components/SlideRightBox.jsx";
 import FadeText from "../components/FadeText.jsx";
 import Wave from "react-wavify";
 import ProjectsScroll from "../components/ProjectsScroll.jsx";
+import {useEffect} from "react";
 
 //Add a languages I use and Libraries I love section
-const Projects = () => {
-    window.scrollTo(0,0)
+const ProjectsPage = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
     return(
         <div style={{position: "relative", width: "100%", overflowX: "hidden"}}>
             <NavGap/>
@@ -30,7 +33,7 @@ const Projects = () => {
                         " I've worked hard on each of these, however some required higher degrees of technical" +
                         " skill while others required creativity. These diverse projects display just " +
                         "some of my abilities as a Software Engineer. Other personal projects are visible on my " +
-                        "GitHub and school projects can be seen on the Academics section of this site."
+                        "GitHub and school projects can be seen on the AcademicsPage section of this site."
                 }}/>
             </div>
 
@@ -120,4 +123,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default ProjectsPage;

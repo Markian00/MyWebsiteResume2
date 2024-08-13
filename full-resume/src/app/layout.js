@@ -7,7 +7,7 @@ const comfortaa = Comfortaa({
 })
 
 export const metadata = {
-    title: 'Markian V Resume',
+    title: 'Markian V ResumePage',
     description: 'My App is a...',
 }
 
