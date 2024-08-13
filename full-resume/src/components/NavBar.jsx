@@ -23,7 +23,7 @@ class NavB extends Component{
                 <Nav style={sticky}>
 
                     <NavMenu style={textsize}>
-                        <img src={logo} alt="Markian Voronovych Logo" width="6%" style={{width:"7%", marginTop:"-0.7vw", paddingLeft: "2vw", paddingRight: "10px"}}/>
+                        <img src={logo.src} alt="Markian Voronovych Logo" width="6%" style={{width:"7%", marginTop:"-0.7vw", paddingLeft: "2vw", paddingRight: "10px"}}/>
                         <NavLink to="/">
                             HOME
                         </NavLink>

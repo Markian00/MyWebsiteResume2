@@ -19,7 +19,7 @@ const Footer = () => {
             <div className={"footer"}>
 
                 <div className={"link-set"} style={{width: "15%", textAlign: "center"}}>
-                    <img src={Logo}/>
+                    <img src={Logo.src}/>
                     <div>
                         Last Updated: August 2024
                     </div>

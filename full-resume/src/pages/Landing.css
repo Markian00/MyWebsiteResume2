@@ -1,5 +1,5 @@
 .header-text{
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     color: #602ec9;
     font-weight: bolder;
     font-size: calc(2vh + 1.5vw);
@@ -10,7 +10,7 @@
 }
 
 .mini-header-text{
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     color: #602ec9;
     font-weight: bolder;
     font-size: 30px;
@@ -19,20 +19,20 @@
 }
 
 .regular-text {
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     color: #3e0fa2;
     font-size: 1.7vh;
 }
 
 .important-text {
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     color: #3e0fa2;
     font-size: 18px;
     font-weight: bolder;
 }
 
 .box{
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     color: #3e0fa2;
     font-size: 15px;
     flex: 1;

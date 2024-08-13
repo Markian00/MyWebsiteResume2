@@ -5,7 +5,7 @@ input[type="text"]{
     width: 20vh;
     background-color: #815ad2;
     color: rgb(219, 210, 245);
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     border-radius: 10px;
     border-style: hidden;
 }
@@ -16,7 +16,7 @@ input[type="email"]{
     width: 28vh;
     background-color: #815ad2;
     color: rgb(219, 210, 245);
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     border-radius: 10px;
     border-style: hidden;
 }
@@ -27,7 +27,7 @@ textarea{
     width: 28vh;
     background-color: #815ad2;
     color: rgb(219, 210, 245);
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     border-radius: 10px;
     border-style: hidden;
 }
@@ -58,7 +58,7 @@ input[type="submit"]:hover{
 }
 
 .form-label{
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     color: rgb(198,183,238);
 
 }

@@ -9,7 +9,7 @@ import EmailForm from "../components/EmailForm.jsx";
 
 
 const Academics = () => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0,0)
     return(
         <>
             <NavGap/>

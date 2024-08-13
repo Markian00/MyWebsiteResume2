@@ -5,11 +5,12 @@ import "./Animate.css"
 const SchoolBox = ({prop}) => {
     const [isVisible, setVisible] = useState(false);
     const domCurr = useRef(null);
-    const options = {root: document.querySelector("#scrollArea"),
-        rootMargin: "0px",
-        threshold: 0
-    }
+
     useEffect(() => {
+        const options = {root: document.querySelector("#scrollArea"),
+            rootMargin: "0px",
+            threshold: 0
+        }
         const observer = new IntersectionObserver(items => {
             const [item] = items
             setVisible(item.isIntersecting)

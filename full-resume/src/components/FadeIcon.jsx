@@ -23,7 +23,7 @@ const FadeIcon = ({prop}) => {
              style={{marginLeft: "15%", marginRight:"15%", marginTop: "2vw",
                  marginBottom: "2vw", alignText:"center"}}
              ref={domCurr}>
-            <img src={prop.info} alt={'Should be image here'} width={"auto"}/>
+            <img src={prop.info.src} alt={'Should be image here'} width={"auto"}/>
         </div>
     )
 }

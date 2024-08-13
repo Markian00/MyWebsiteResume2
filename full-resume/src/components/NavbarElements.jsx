@@ -2,7 +2,7 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    font-family: Comfortaa;
+    font-family: var(--font-comfortaa);
     background: rgba(144, 110, 237, 0.69);
     height: calc(4vw + 40px);
     margin-left: 0;

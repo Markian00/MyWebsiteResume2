@@ -9,7 +9,7 @@ import ProjectsScroll from "../components/ProjectsScroll.jsx";
 
 //Add a languages I use and Libraries I love section
 const Projects = () => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0,0)
     return(
         <div style={{position: "relative", width: "100%", overflowX: "hidden"}}>
             <NavGap/>

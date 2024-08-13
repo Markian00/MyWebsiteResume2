@@ -13,7 +13,7 @@ const ProjectBox = ({prop}) => {
             <div style={{marginTop: "10px", marginBottom: "20px", fontWeight: "bolder", fontSize: "calc(0.5vw + 1.1vh)"}}>
                 {prop.class}
             </div>
-            <Link to={`/project/${prop.id}`} className={"p-button"}>
+            <Link to={`/Projects/${prop.id}`} className={"p-button"}>
                 Learn More
             </Link>
         </div>

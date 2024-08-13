@@ -21,7 +21,7 @@ const FadeLink = ({prop}) => {
     return(
         <div className={`${isVisible ? 'visible-box' : 'fading-up-box'}`} style={{fontSize: "1.7vw"}} ref={domCurr}>
             <a href={prop.link}>
-                <img src={prop.info} alt={'Should be image here'} style={{width: "55%"}}/>
+                <img src={prop.info.src} alt={'Should be image here'} style={{width: "55%"}}/>
             </a>
         </div>
     )
