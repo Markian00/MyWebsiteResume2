@@ -59,7 +59,7 @@
     border-radius: 20px;
     outline: rgba(62, 15, 162, 0.48);
     outline-style: solid;
-
+    text-underline: none;
 }
 
 .link-button:hover {

@@ -255,7 +255,7 @@ img {
     outline: #dad2f4;
     outline-style: solid;
     padding: 1%;
-
+    text-underline: none;
 }
 
 .p-button:hover {
